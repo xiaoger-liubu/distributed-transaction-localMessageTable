@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/account-balance/account-balance.iml" filepath="$PROJECT_DIR$/account-balance/account-balance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-contract/common-contract.iml" filepath="$PROJECT_DIR$/common-contract/common-contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/localMessageTable.iml" filepath="$PROJECT_DIR$/localMessageTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay/pay.iml" filepath="$PROJECT_DIR$/pay/pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reliable-message/reliable-message.iml" filepath="$PROJECT_DIR$/reliable-message/reliable-message.iml" />
+    </modules>
+  </component>
+</project>
