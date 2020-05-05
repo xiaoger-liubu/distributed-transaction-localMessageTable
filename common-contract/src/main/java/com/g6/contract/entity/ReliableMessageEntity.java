@@ -2,7 +2,11 @@ package com.g6.contract.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.g6.contract.enums.EnumsDead;
+import com.g6.contract.enums.EnumsMessageStatus;
+import com.g6.contract.vo.ReliableMessageVo;
 import lombok.Data;
+import org.springframework.beans.BeanUtils;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -84,5 +88,16 @@ public class ReliableMessageEntity implements Serializable {
 	 * 更新时间
 	 */
 	private Date updateTime;
+
+	public static ReliableMessageEntity resolve(ReliableMessageVo messageVo){
+		ReliableMessageEntity entity = new ReliableMessageEntity();
+		BeanUtils.copyProperties(messageVo,entity);
+		entity.setIsDead(EnumsDead.NEED_DEAD.getValue());
+		entity.setStatus(EnumsMessageStatus.WAITING_CONFIRM.getValue());
+		entity.setCreateTime(new Date());
+		entity.setUpdateTime(new Date());
+		return entity;
+	}
+
 
 }

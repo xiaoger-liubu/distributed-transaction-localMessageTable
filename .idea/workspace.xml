@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec327525-4278-44c1-a60b-0d272ef884bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/constant/Topic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsDead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsMessageSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsMessageStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsTopic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/vo/PayVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/vo/ReliableMessageVo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/entity/AccountBalanceEntity.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/AccountBalanceEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/constant/Apis.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/constant/Api.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/entity/PayInfoEntity.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/PayInfoEntity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/entity/ReliableMessageEntity.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java" />
+    <list default="true" id="ec327525-4278-44c1-a60b-0d272ef884bd" name="Default" comment="分布式事务-本地消息表-结构修改">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ResultMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/utils/JsonUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/controller/MessageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/controller/AccountController.java" afterPath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/controller/AccountController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/dao/AccountBalanceDao.java" afterPath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/dao/AccountBalanceDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/service/AccountBalanceService.java" afterPath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/service/AccountBalanceService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/service/impl/AccountBalanceServiceImpl.java" afterPath="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/service/impl/AccountBalanceServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/AccountBalanceFeignService.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/AccountBalanceFeignService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/PayFeignService.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/PayFeignService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/ReliableMessageFeignService.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/ReliableMessageFeignService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java" afterPath="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java" afterPath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/dao/PayInfoDao.java" afterPath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/dao/PayInfoDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/service/PayInfoService.java" afterPath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/service/PayInfoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/service/impl/PayInfoServiceImpl.java" afterPath="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/service/impl/PayInfoServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/dao/ReliableMessageDao.java" afterPath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/dao/ReliableMessageDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/service/ReliableMessageService.java" afterPath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/service/ReliableMessageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/service/impl/ReliableMessageServiceImpl.java" afterPath="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/service/impl/ReliableMessageServiceImpl.java" />
     </list>
     <ignored path="localMessageTable.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PayInfoServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PayInfoServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pay/src/main/java/com/g6/pay/service/impl/PayInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3063063">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReliableMessageServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/service/impl/ReliableMessageServiceImpl.java">
+      <file leaf-file-name="PayController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,21 +74,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReliableMessageDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/dao/ReliableMessageDao.java">
+      <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/controller/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.2998713">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IService.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountBalanceService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/service/AccountBalanceService.java">
+      <file leaf-file-name="ReliableMessageEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnumsDead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsDead.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/utils/JsonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountBalanceServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/service/impl/AccountBalanceServiceImpl.java">
+      <file leaf-file-name="ReliableMessageVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/vo/ReliableMessageVo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,51 +143,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PayInfoDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/src/main/java/com/g6/pay/dao/PayInfoDao.java">
+      <file leaf-file-name="ResultMsg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ResultMsg.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortforwardAfterRun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/component/PortforwardAfterRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountBalanceDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/dao/AccountBalanceDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -222,9 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pay/src/main/java/com/g6/study/pay/PayApplication.java" />
-        <option value="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/ReliableMessageApplication.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/utils/Query.java" />
         <option value="$PROJECT_DIR$/pay/pom.xml" />
         <option value="$PROJECT_DIR$/reliable-message/pom.xml" />
@@ -249,7 +222,6 @@
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/component/PortforwardAfterRun.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/PayFeignService.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/feign/ReliableMessageFeignService.java" />
-        <option value="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/constant/Topic.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsDead.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsMessageStatus.java" />
@@ -258,7 +230,6 @@
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsTopic.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/vo/ReliableMessageVo.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/PayInfoEntity.java" />
-        <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/AccountBalanceEntity.java" />
         <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/vo/PayVo.java" />
         <option value="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/entity/AccountBalanceEntity.java" />
@@ -273,6 +244,11 @@
         <option value="$PROJECT_DIR$/account-balance/src/main/java/com/g6/account/dao/AccountBalanceDao.java" />
         <option value="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/dao/PayInfoDao.java" />
         <option value="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/dao/ReliableMessageDao.java" />
+        <option value="$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java" />
+        <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ResultMsg.java" />
+        <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java" />
+        <option value="$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/controller/MessageController.java" />
       </list>
     </option>
   </component>
@@ -399,7 +375,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="reliable-message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,7 +389,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="reliable-message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -431,33 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localMessageTable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localMessageTable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="reliable-message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -468,14 +418,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -487,7 +429,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="reliable-message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -503,11 +445,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,7 +459,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="reliable-message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -537,45 +475,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localMessageTable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localMessageTable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -593,7 +493,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="reliable-message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -609,7 +509,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pay" />
+              <option name="myItemId" value="message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -635,11 +535,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.g6.contract.utils" />
       <recent name="com.g6.contract.entity" />
       <recent name="com.g6.contract.component" />
       <recent name="com.g6.contract.utils.exception" />
       <recent name="com.g6.message.service.impl" />
-      <recent name="com.g6.message.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/reliable-message/src/main/resources/mapper" />
@@ -1128,7 +1028,7 @@
       <workItem from="1588595418871" duration="374000" />
       <workItem from="1588646264793" duration="318000" />
       <workItem from="1588646749332" duration="7889000" />
-      <workItem from="1588670469744" duration="6798000" />
+      <workItem from="1588670469744" duration="8706000" />
     </task>
     <task id="LOCAL-00001" summary="gitingore文件提交">
       <created>1588595506984</created>
@@ -1148,11 +1048,17 @@
       <option name="project" value="LOCAL" />
       <updated>1588679885177</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="分布式事务-本地消息表-结构修改">
+      <created>1588683994280</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588683994284</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17216000" />
+    <option name="totallyTimeSpent" value="19124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1200,7 +1106,8 @@
     <MESSAGE value="gitingore文件提交" />
     <MESSAGE value="分布式事务-本地消息表-业务模块提交" />
     <MESSAGE value="分布式事务-本地消息表-feign接口调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="分布式事务-本地消息表-feign接口调用" />
+    <MESSAGE value="分布式事务-本地消息表-结构修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="分布式事务-本地消息表-结构修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1221,25 +1128,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reliable-message/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9814816">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay/src/main/resources/mapper/PayInfoDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-balance/src/main/resources/mapper/AccountBalanceDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
@@ -1467,23 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsDead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsMessageStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1538,25 +1409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/vo/ReliableMessageVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/PayInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1652,17 +1505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13581891">
@@ -1693,8 +1535,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pay/src/main/java/com/g6/pay/service/impl/PayInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3063063">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/src/main/java/com/g6/pay/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/enums/EnumsDead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/vo/ReliableMessageVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-contract/src/main/java/com/g6/contract/entity/ReliableMessageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reliable-message/src/main/java/com/g6/message/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2998713">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
