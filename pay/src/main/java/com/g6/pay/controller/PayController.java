@@ -1,6 +1,7 @@
 package com.g6.pay.controller;
 
 import com.g6.contract.feign.AccountBalanceFeignService;
+import com.g6.contract.feign.PayFeignService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,9 +20,17 @@ public class PayController {
     @Autowired
     AccountBalanceFeignService accountFeignService;
 
+    @Autowired
+    PayFeignService payFeignService;
+
     @GetMapping("/index")
     public String index(){
         return accountFeignService.index("xx");
+    }
+
+    @GetMapping("/pay")
+    public String pay(){
+        return "";
     }
 
 }

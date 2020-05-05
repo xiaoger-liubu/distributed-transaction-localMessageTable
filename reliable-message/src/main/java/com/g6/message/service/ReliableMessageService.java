@@ -1,8 +1,8 @@
 package com.g6.message.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.g6.contract.entity.ReliableMessageEntity;
 import com.g6.contract.utils.PageUtils;
-import com.g6.message.entity.ReliableMessageEntity;
 
 import java.util.Map;
 

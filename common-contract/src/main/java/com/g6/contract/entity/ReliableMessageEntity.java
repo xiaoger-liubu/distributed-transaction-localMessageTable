@@ -1,4 +1,4 @@
-package com.g6.message.entity;
+package com.g6.contract.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

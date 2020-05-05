@@ -1,4 +1,4 @@
-package com.g6.account.entity;
+package com.g6.contract.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -12,28 +12,28 @@ import java.util.Date;
  * 
  * @author g6
  * @email huahangxiaohui@163.com
- * @date 2020-05-05 15:45:03
+ * @date 2020-05-05 15:45:02
  */
 @Data
-@TableName("account_balance")
-public class AccountBalanceEntity implements Serializable {
+@TableName("pay_info")
+public class PayInfoEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * 账户余额表ID
+	 * 支付表ID
 	 */
 	@TableId
 	private String id;
 	/**
-	 * 用户ID
+	 * 支付用户ID
 	 */
 	private String userId;
 	/**
-	 * 账户余额
+	 * 支付金额
 	 */
-	private Long accountBalance;
+	private Long payFee;
 	/**
-	 * 账户变动时间
+	 * 支付时间
 	 */
 	private Date createTime;
 

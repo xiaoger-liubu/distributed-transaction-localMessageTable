@@ -1,7 +1,7 @@
 package com.g6.pay.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.g6.pay.entity.PayInfoEntity;
+import com.g6.contract.entity.PayInfoEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

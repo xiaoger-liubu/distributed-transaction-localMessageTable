@@ -1,7 +1,7 @@
 package com.g6.message.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.g6.message.entity.ReliableMessageEntity;
+import com.g6.contract.entity.ReliableMessageEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

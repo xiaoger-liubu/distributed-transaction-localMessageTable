@@ -1,8 +1,8 @@
 package com.g6.pay.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.g6.contract.entity.PayInfoEntity;
 import com.g6.contract.utils.PageUtils;
-import com.g6.pay.entity.PayInfoEntity;
 
 import java.util.Map;
 

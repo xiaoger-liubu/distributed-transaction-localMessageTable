@@ -4,7 +4,7 @@ package com.g6.contract.constant;
  * @Author: g6
  * @Date: 2020/5/5 16:40
  */
-public class Apis {
+public class Api {
 
 
     public static final String PAY_URL = "http://localhost:9001";

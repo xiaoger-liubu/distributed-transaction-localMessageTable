@@ -1,7 +1,7 @@
 package com.g6.account.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.g6.account.entity.AccountBalanceEntity;
+import com.g6.contract.entity.AccountBalanceEntity;
 import com.g6.contract.utils.PageUtils;
 
 import java.util.Map;
