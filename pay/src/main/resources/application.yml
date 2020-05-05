@@ -1,0 +1,12 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: pay
+  datasource:
+      url: jdbc:mysql://localhost:23306/for_study?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: study
+      password: study@123
+      driver-class-name: com.mysql.jdbc.Driver

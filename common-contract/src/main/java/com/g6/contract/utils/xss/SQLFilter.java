@@ -1,7 +1,7 @@
 package com.g6.contract.utils.xss;
 
-import com.cricket.cabinet.generate.sys.exception.SysException;
-import org.apache.commons.lang.StringUtils;
+import com.g6.contract.utils.exception.SysException;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * SQL过滤
